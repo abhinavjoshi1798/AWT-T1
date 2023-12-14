@@ -1,0 +1,460 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "json-server",
+            "author": "typicode"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    },
+    "AG": [
+        {
+            "name": "ALLEN GLOBAL STUDIES DIVISION",
+            "id": "25",
+            "class": [
+                {
+                    "value": "RC",
+                    "name": "Riser & Challenger",
+                    "id": "18",
+                    "subjects": [
+                        {
+                            "value": "QT",
+                            "name": "QUANTS",
+                            "id": "26",
+                            "topics": [
+                                {
+                                    "value": "AA",
+                                    "name": "Algebra",
+                                    "id": "1855",
+                                    "subtopics": [
+                                        {
+                                            "id": "15803",
+                                            "name": "Linear equations"
+                                        },
+                                        {
+                                            "id": "15804",
+                                            "name": "Inequalities and absolute value"
+                                        },
+                                        {
+                                            "id": "15805",
+                                            "name": "Coordinate Geometry"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": "AM",
+                                    "name": "Advanced Maths",
+                                    "id": "1857",
+                                    "subtopics": [
+                                        {
+                                            "id": "15812",
+                                            "name": "Functions & Polynomials"
+                                        },
+                                        {
+                                            "id": "15813",
+                                            "name": "Exponents & Radicals"
+                                        },
+                                        {
+                                            "id": "15814",
+                                            "name": "Progressions"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": "AT",
+                                    "name": "Additional Topics",
+                                    "id": "1858",
+                                    "subtopics": [
+                                        {
+                                            "name": "Geometry",
+                                            "id": "15815"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": "PD",
+                                    "name": "Problem Solving & Data Analysis",
+                                    "id": "1856",
+                                    "subtopics": [
+                                        {
+                                            "id": "15806",
+                                            "name": "Ratio & Proportion"
+                                        },
+                                        {
+                                            "id": "15807",
+                                            "name": "Percentages"
+                                        },
+                                        {
+                                            "id": "15808",
+                                            "name": "Data Analysis"
+                                        },
+                                        {
+                                            "id": "15809",
+                                            "name": "Statistics"
+                                        },
+                                        {
+                                            "id": "15810",
+                                            "name": "Random Sampling"
+                                        },
+                                        {
+                                            "id": "15811",
+                                            "name": "Simple Compound Interest"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "value": "VB",
+                            "name": "VERBAL",
+                            "id": "25",
+                            "topics": [
+                                {
+                                    "AS": {
+                                        "name": "Analysis in Science",
+                                        "id": "1851",
+                                        "subtopics": [
+                                            {
+                                                "name": "Science (AS)",
+                                                "id": "15781"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "CE": {
+                                        "name": "Command of Evidence",
+                                        "id": "1854",
+                                        "subtopics": [
+                                            {
+                                                "name": "Command of Evidence (E)",
+                                                "id": "15802"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "CS": {
+                                        "name": "Craft & Structure",
+                                        "id": "2714",
+                                        "subtopics": [
+                                            {
+                                                "name": "Word in Context",
+                                                "id": "20705"
+                                            },
+                                            {
+                                                "name": "Text Structure & Purpose",
+                                                "id": "20706"
+                                            },
+                                            {
+                                                "name": "Cross Text Connections",
+                                                "id": "20707"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "EI": {
+                                        "name": "Expression of Ideas",
+                                        "id": "1852",
+                                        "subtopics": [
+                                            {
+                                                "name": "Transitions",
+                                                "id": "20724"
+                                            },
+                                            {
+                                                "name": "Rhethroical Synthesis",
+                                                "id": "20725"
+                                            },
+                                            {
+                                                "name": "Transitional Words and Sentences (OT)",
+                                                "id": "15782"
+                                            },
+                                            {
+                                                "name": "Precise Word Choices (EP)",
+                                                "id": "15783"
+                                            },
+                                            {
+                                                "name": "Concise Sentences (EC)",
+                                                "id": "15784"
+                                            },
+                                            {
+                                                "name": "Style and Tone (ET)",
+                                                "id": "15785"
+                                            },
+                                            {
+                                                "name": "Logical Sentence Order (OL)",
+                                                "id": "15786"
+                                            },
+                                            {
+                                                "name": "Clear Sentences (ES)",
+                                                "id": "15787"
+                                            },
+                                            {
+                                                "name": "Main Idea (DP)",
+                                                "id": "15788"
+                                            },
+                                            {
+                                                "name": "Supporting Evidence (DS)",
+                                                "id": "15789"
+                                            },
+                                            {
+                                                "name": "Addition/Deletion (AD)",
+                                                "id": "15790"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "HS": {
+                                        "name": "Analysis in History/SocialStudies",
+                                        "id": "1850",
+                                        "subtopics": [
+                                            {
+                                                "name": "History and Social Studies (AH )",
+                                                "id": "15780"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "II": {
+                                        "name": "Information and Ideas",
+                                        "id": "1847",
+                                        "subtopics": [
+                                            {
+                                                "name": "Direct Information (IE)",
+                                                "id": "15767"
+                                            },
+                                            {
+                                                "name": "Vocabulary in Context (IW )",
+                                                "id": "15768"
+                                            },
+                                            {
+                                                "name": "Describing Relationships (IR)",
+                                                "id": "15769"
+                                            },
+                                            {
+                                                "name": "Implied Information (II)",
+                                                "id": "15770"
+                                            },
+                                            {
+                                                "name": "Main Ideas (IT)",
+                                                "id": "15771"
+                                            },
+                                            {
+                                                "name": "Finding Evidence (IC)",
+                                                "id": "15772"
+                                            },
+                                            {
+                                                "name": "Similar Situation (IA)",
+                                                "id": "15773"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "LL": {
+                                        "name": "Information & Idea's",
+                                        "id": "2715",
+                                        "subtopics": [
+                                            {
+                                                "name": "Interences",
+                                                "id": "20710"
+                                            },
+                                            {
+                                                "name": "Central Ideas & Details",
+                                                "id": "20711"
+                                            },
+                                            {
+                                                "name": "Command of Evidence (Textual)",
+                                                "id": "20708"
+                                            },
+                                            {
+                                                "name": "Command of Evidence (Quantitative)",
+                                                "id": "20709"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "PA": {
+                                        "name": "Passage",
+                                        "id": "1846",
+                                        "subtopics": [
+                                            {
+                                                "name": "Literature",
+                                                "id": "15763"
+                                            },
+                                            {
+                                                "name": "History",
+                                                "id": "15764"
+                                            },
+                                            {
+                                                "name": "Science",
+                                                "id": "15765"
+                                            },
+                                            {
+                                                "name": "Social Science",
+                                                "id": "15766"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "RH": {
+                                        "name": "Rhetoric",
+                                        "id": "1848",
+                                        "subtopics": [
+                                            {
+                                                "name": "Author's Evidence (RE)",
+                                                "id": "15774"
+                                            },
+                                            {
+                                                "name": "Purpose (RP)",
+                                                "id": "15775"
+                                            },
+                                            {
+                                                "name": "Word Choice (RW)",
+                                                "id": "15776"
+                                            },
+                                            {
+                                                "name": "Point of View (RV)",
+                                                "id": "15777"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "SC": {
+                                        "name": "Standard English Conventions",
+                                        "id": "1853",
+                                        "subtopics": [
+                                            {
+                                                "id": "15800",
+                                                "name": "Matching Verbs (SV)"
+                                            },
+                                            {
+                                                "id": "15801",
+                                                "name": "Comparing Correctly (UL)"
+                                            },
+                                            {
+                                                "id": "20712",
+                                                "name": "Form, Structure & Senses (Determiners)"
+                                            },
+                                            {
+                                                "id": "20713",
+                                                "name": "Form, Structure & Senses (SVA)"
+                                            },
+                                            {
+                                                "id": "20714",
+                                                "name": "Form, Structure & Senses (Clauses)"
+                                            },
+                                            {
+                                                "id": "20715",
+                                                "name": "Form, Structure & Senses (Finite & Non-Finite V)"
+                                            },
+                                            {
+                                                "id": "20716",
+                                                "name": "Form, Structure & Senses (Tense)"
+                                            },
+                                            {
+                                                "id": "20717",
+                                                "name": "Form, Structure & Senses (Modifiers)"
+                                            },
+                                            {
+                                                "id": "20718",
+                                                "name": "Boundaries (Punctuation)"
+                                            },
+                                            {
+                                                "id": "20719",
+                                                "name": "Form, Structure & Senses (Pronouns)"
+                                            },
+                                            {
+                                                "id": "20720",
+                                                "name": "Boundaries (Pronoun)"
+                                            },
+                                            {
+                                                "id": "20721",
+                                                "name": "SVA"
+                                            },
+                                            {
+                                                "id": "20722",
+                                                "name": "Boundaries (Punctuation)"
+                                            },
+                                            {
+                                                "id": "20723",
+                                                "name": "Form, Structure & Senses (Subject Modifier Placement)"
+                                            },
+                                            {
+                                                "id": "15791",
+                                                "name": "Clear Pronouns (UPC)"
+                                            },
+                                            {
+                                                "id": "15792",
+                                                "name": "Matching Sentence Structures (SP)"
+                                            },
+                                            {
+                                                "id": "15793",
+                                                "name": "Appropriate Prepositions (UC)"
+                                            },
+                                            {
+                                                "id": "15794",
+                                                "name": "Matching Nouns (SN)"
+                                            },
+                                            {
+                                                "id": "15795",
+                                                "name": "Punctuating (PL)"
+                                            },
+                                            {
+                                                "id": "15796",
+                                                "name": "Verb Agreement (USV)"
+                                            },
+                                            {
+                                                "id": "15797",
+                                                "name": "Confusing Words (UF)"
+                                            },
+                                            {
+                                                "id": "15798",
+                                                "name": "Extra Clauses (PC)"
+                                            },
+                                            {
+                                                "id": "15799",
+                                                "name": "Making Whole Sentences and Avoiding Run-ons (SB)"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "SY": {
+                                        "name": "Synthesis",
+                                        "id": "1849",
+                                        "subtopics": [
+                                            {
+                                                "id": "15778",
+                                                "name": "Comparing Passages (M)"
+                                            },
+                                            {
+                                                "id": "15779",
+                                                "name": "Graphics (Q)"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
