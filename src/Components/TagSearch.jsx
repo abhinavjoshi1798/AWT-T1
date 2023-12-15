@@ -5,7 +5,7 @@ const TagSearch = () => {
   const [searchToggle, setSearchToggle] = useState(true);
   const [classx, setClassx] = useState([]);
   const [subjects, setSubjects] = useState([]);
-  const [topics,setTopics] = useState([]);
+  const [topics, setTopics] = useState([]);
 
   const handleClick = () => {
     setIsTrue(!isTrue);
@@ -23,26 +23,29 @@ const TagSearch = () => {
     fetch(` http://localhost:5000/${endPoint}`)
       .then((res) => res.json())
       .then((res) => {
-        
-
         res[0].class.forEach((el) => {
           tempClass.push(el.name);
+          el.subjects.map((el)=>{
+            tempSub.push(el.name)
+          })
         });
         setClassx([...tempClass]);
-        
+
         res[0].class[0].subjects.forEach((el) => {
           tempSub.push(el.name);
-          console.log(el.topics)
-          
+          console.log(el.topics);
+          topics.forEach((el) => {
+            tempTopics.push(el.name);
+          });
         });
         setSubjects([...tempSub]);
-          
+        setTopics(tempTopics);
       })
       .catch((err) => {
         console.log(err);
       });
   };
-  console.log(subjects, classx,topics);
+  console.log(subjects, classx, topics);
 
   return (
     <>

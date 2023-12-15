@@ -1,460 +1,800 @@
 {
-    "posts": [
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "AG": [
+    {
+      "name": "ALLEN GLOBAL STUDIES DIVISION",
+      "id": "25",
+      "class": [
         {
-            "id": 1,
-            "title": "json-server",
-            "author": "typicode"
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        }
-    ],
-    "profile": {
-        "name": "typicode"
-    },
-    "AG": [
-        {
-            "name": "ALLEN GLOBAL STUDIES DIVISION",
-            "id": "25",
-            "class": [
+          "value": "RC",
+          "name": "Riser & Challenger",
+          "id": "18",
+          "subjects": [
+            {
+              "value": "QT",
+              "name": "QUANTS",
+              "id": "26",
+              "topics": [
                 {
-                    "value": "RC",
-                    "name": "Riser & Challenger",
-                    "id": "18",
-                    "subjects": [
-                        {
-                            "value": "QT",
-                            "name": "QUANTS",
-                            "id": "26",
-                            "topics": [
-                                {
-                                    "value": "AA",
-                                    "name": "Algebra",
-                                    "id": "1855",
-                                    "subtopics": [
-                                        {
-                                            "id": "15803",
-                                            "name": "Linear equations"
-                                        },
-                                        {
-                                            "id": "15804",
-                                            "name": "Inequalities and absolute value"
-                                        },
-                                        {
-                                            "id": "15805",
-                                            "name": "Coordinate Geometry"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "value": "AM",
-                                    "name": "Advanced Maths",
-                                    "id": "1857",
-                                    "subtopics": [
-                                        {
-                                            "id": "15812",
-                                            "name": "Functions & Polynomials"
-                                        },
-                                        {
-                                            "id": "15813",
-                                            "name": "Exponents & Radicals"
-                                        },
-                                        {
-                                            "id": "15814",
-                                            "name": "Progressions"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "value": "AT",
-                                    "name": "Additional Topics",
-                                    "id": "1858",
-                                    "subtopics": [
-                                        {
-                                            "name": "Geometry",
-                                            "id": "15815"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "value": "PD",
-                                    "name": "Problem Solving & Data Analysis",
-                                    "id": "1856",
-                                    "subtopics": [
-                                        {
-                                            "id": "15806",
-                                            "name": "Ratio & Proportion"
-                                        },
-                                        {
-                                            "id": "15807",
-                                            "name": "Percentages"
-                                        },
-                                        {
-                                            "id": "15808",
-                                            "name": "Data Analysis"
-                                        },
-                                        {
-                                            "id": "15809",
-                                            "name": "Statistics"
-                                        },
-                                        {
-                                            "id": "15810",
-                                            "name": "Random Sampling"
-                                        },
-                                        {
-                                            "id": "15811",
-                                            "name": "Simple Compound Interest"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "value": "VB",
-                            "name": "VERBAL",
-                            "id": "25",
-                            "topics": [
-                                {
-                                    "AS": {
-                                        "name": "Analysis in Science",
-                                        "id": "1851",
-                                        "subtopics": [
-                                            {
-                                                "name": "Science (AS)",
-                                                "id": "15781"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "CE": {
-                                        "name": "Command of Evidence",
-                                        "id": "1854",
-                                        "subtopics": [
-                                            {
-                                                "name": "Command of Evidence (E)",
-                                                "id": "15802"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "CS": {
-                                        "name": "Craft & Structure",
-                                        "id": "2714",
-                                        "subtopics": [
-                                            {
-                                                "name": "Word in Context",
-                                                "id": "20705"
-                                            },
-                                            {
-                                                "name": "Text Structure & Purpose",
-                                                "id": "20706"
-                                            },
-                                            {
-                                                "name": "Cross Text Connections",
-                                                "id": "20707"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "EI": {
-                                        "name": "Expression of Ideas",
-                                        "id": "1852",
-                                        "subtopics": [
-                                            {
-                                                "name": "Transitions",
-                                                "id": "20724"
-                                            },
-                                            {
-                                                "name": "Rhethroical Synthesis",
-                                                "id": "20725"
-                                            },
-                                            {
-                                                "name": "Transitional Words and Sentences (OT)",
-                                                "id": "15782"
-                                            },
-                                            {
-                                                "name": "Precise Word Choices (EP)",
-                                                "id": "15783"
-                                            },
-                                            {
-                                                "name": "Concise Sentences (EC)",
-                                                "id": "15784"
-                                            },
-                                            {
-                                                "name": "Style and Tone (ET)",
-                                                "id": "15785"
-                                            },
-                                            {
-                                                "name": "Logical Sentence Order (OL)",
-                                                "id": "15786"
-                                            },
-                                            {
-                                                "name": "Clear Sentences (ES)",
-                                                "id": "15787"
-                                            },
-                                            {
-                                                "name": "Main Idea (DP)",
-                                                "id": "15788"
-                                            },
-                                            {
-                                                "name": "Supporting Evidence (DS)",
-                                                "id": "15789"
-                                            },
-                                            {
-                                                "name": "Addition/Deletion (AD)",
-                                                "id": "15790"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "HS": {
-                                        "name": "Analysis in History/SocialStudies",
-                                        "id": "1850",
-                                        "subtopics": [
-                                            {
-                                                "name": "History and Social Studies (AH )",
-                                                "id": "15780"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "II": {
-                                        "name": "Information and Ideas",
-                                        "id": "1847",
-                                        "subtopics": [
-                                            {
-                                                "name": "Direct Information (IE)",
-                                                "id": "15767"
-                                            },
-                                            {
-                                                "name": "Vocabulary in Context (IW )",
-                                                "id": "15768"
-                                            },
-                                            {
-                                                "name": "Describing Relationships (IR)",
-                                                "id": "15769"
-                                            },
-                                            {
-                                                "name": "Implied Information (II)",
-                                                "id": "15770"
-                                            },
-                                            {
-                                                "name": "Main Ideas (IT)",
-                                                "id": "15771"
-                                            },
-                                            {
-                                                "name": "Finding Evidence (IC)",
-                                                "id": "15772"
-                                            },
-                                            {
-                                                "name": "Similar Situation (IA)",
-                                                "id": "15773"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "LL": {
-                                        "name": "Information & Idea's",
-                                        "id": "2715",
-                                        "subtopics": [
-                                            {
-                                                "name": "Interences",
-                                                "id": "20710"
-                                            },
-                                            {
-                                                "name": "Central Ideas & Details",
-                                                "id": "20711"
-                                            },
-                                            {
-                                                "name": "Command of Evidence (Textual)",
-                                                "id": "20708"
-                                            },
-                                            {
-                                                "name": "Command of Evidence (Quantitative)",
-                                                "id": "20709"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "PA": {
-                                        "name": "Passage",
-                                        "id": "1846",
-                                        "subtopics": [
-                                            {
-                                                "name": "Literature",
-                                                "id": "15763"
-                                            },
-                                            {
-                                                "name": "History",
-                                                "id": "15764"
-                                            },
-                                            {
-                                                "name": "Science",
-                                                "id": "15765"
-                                            },
-                                            {
-                                                "name": "Social Science",
-                                                "id": "15766"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "RH": {
-                                        "name": "Rhetoric",
-                                        "id": "1848",
-                                        "subtopics": [
-                                            {
-                                                "name": "Author's Evidence (RE)",
-                                                "id": "15774"
-                                            },
-                                            {
-                                                "name": "Purpose (RP)",
-                                                "id": "15775"
-                                            },
-                                            {
-                                                "name": "Word Choice (RW)",
-                                                "id": "15776"
-                                            },
-                                            {
-                                                "name": "Point of View (RV)",
-                                                "id": "15777"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "SC": {
-                                        "name": "Standard English Conventions",
-                                        "id": "1853",
-                                        "subtopics": [
-                                            {
-                                                "id": "15800",
-                                                "name": "Matching Verbs (SV)"
-                                            },
-                                            {
-                                                "id": "15801",
-                                                "name": "Comparing Correctly (UL)"
-                                            },
-                                            {
-                                                "id": "20712",
-                                                "name": "Form, Structure & Senses (Determiners)"
-                                            },
-                                            {
-                                                "id": "20713",
-                                                "name": "Form, Structure & Senses (SVA)"
-                                            },
-                                            {
-                                                "id": "20714",
-                                                "name": "Form, Structure & Senses (Clauses)"
-                                            },
-                                            {
-                                                "id": "20715",
-                                                "name": "Form, Structure & Senses (Finite & Non-Finite V)"
-                                            },
-                                            {
-                                                "id": "20716",
-                                                "name": "Form, Structure & Senses (Tense)"
-                                            },
-                                            {
-                                                "id": "20717",
-                                                "name": "Form, Structure & Senses (Modifiers)"
-                                            },
-                                            {
-                                                "id": "20718",
-                                                "name": "Boundaries (Punctuation)"
-                                            },
-                                            {
-                                                "id": "20719",
-                                                "name": "Form, Structure & Senses (Pronouns)"
-                                            },
-                                            {
-                                                "id": "20720",
-                                                "name": "Boundaries (Pronoun)"
-                                            },
-                                            {
-                                                "id": "20721",
-                                                "name": "SVA"
-                                            },
-                                            {
-                                                "id": "20722",
-                                                "name": "Boundaries (Punctuation)"
-                                            },
-                                            {
-                                                "id": "20723",
-                                                "name": "Form, Structure & Senses (Subject Modifier Placement)"
-                                            },
-                                            {
-                                                "id": "15791",
-                                                "name": "Clear Pronouns (UPC)"
-                                            },
-                                            {
-                                                "id": "15792",
-                                                "name": "Matching Sentence Structures (SP)"
-                                            },
-                                            {
-                                                "id": "15793",
-                                                "name": "Appropriate Prepositions (UC)"
-                                            },
-                                            {
-                                                "id": "15794",
-                                                "name": "Matching Nouns (SN)"
-                                            },
-                                            {
-                                                "id": "15795",
-                                                "name": "Punctuating (PL)"
-                                            },
-                                            {
-                                                "id": "15796",
-                                                "name": "Verb Agreement (USV)"
-                                            },
-                                            {
-                                                "id": "15797",
-                                                "name": "Confusing Words (UF)"
-                                            },
-                                            {
-                                                "id": "15798",
-                                                "name": "Extra Clauses (PC)"
-                                            },
-                                            {
-                                                "id": "15799",
-                                                "name": "Making Whole Sentences and Avoiding Run-ons (SB)"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "SY": {
-                                        "name": "Synthesis",
-                                        "id": "1849",
-                                        "subtopics": [
-                                            {
-                                                "id": "15778",
-                                                "name": "Comparing Passages (M)"
-                                            },
-                                            {
-                                                "id": "15779",
-                                                "name": "Graphics (Q)"
-                                            }
-                                        ]
-                                    }
-                                }
-                            ]
-                        }
-                    ]
+                  "value": "AA",
+                  "name": "Algebra",
+                  "id": "1855",
+                  "subtopics": [
+                    {
+                      "id": "15803",
+                      "name": "Linear equations"
+                    },
+                    {
+                      "id": "15804",
+                      "name": "Inequalities and absolute value"
+                    },
+                    {
+                      "id": "15805",
+                      "name": "Coordinate Geometry"
+                    }
+                  ]
+                },
+                {
+                  "value": "AM",
+                  "name": "Advanced Maths",
+                  "id": "1857",
+                  "subtopics": [
+                    {
+                      "id": "15812",
+                      "name": "Functions & Polynomials"
+                    },
+                    {
+                      "id": "15813",
+                      "name": "Exponents & Radicals"
+                    },
+                    {
+                      "id": "15814",
+                      "name": "Progressions"
+                    }
+                  ]
+                },
+                {
+                  "value": "AT",
+                  "name": "Additional Topics",
+                  "id": "1858",
+                  "subtopics": [
+                    {
+                      "name": "Geometry",
+                      "id": "15815"
+                    }
+                  ]
+                },
+                {
+                  "value": "PD",
+                  "name": "Problem Solving & Data Analysis",
+                  "id": "1856",
+                  "subtopics": [
+                    {
+                      "id": "15806",
+                      "name": "Ratio & Proportion"
+                    },
+                    {
+                      "id": "15807",
+                      "name": "Percentages"
+                    },
+                    {
+                      "id": "15808",
+                      "name": "Data Analysis"
+                    },
+                    {
+                      "id": "15809",
+                      "name": "Statistics"
+                    },
+                    {
+                      "id": "15810",
+                      "name": "Random Sampling"
+                    },
+                    {
+                      "id": "15811",
+                      "name": "Simple Compound Interest"
+                    }
+                  ]
                 }
-            ]
+              ]
+            },
+            {
+              "value": "VB",
+              "name": "VERBAL",
+              "id": "25"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
+
+
+"AS": {
+  "name": "ALLEN SHARP",
+  "id": "21",
+  "class": {
+    "10": {
+      "name": "X",
+      "id": "10",
+      "subjects": {
+        "BG": {
+          "name": "BIOLOGY",
+          "id": "12",
+          "topics": {
+            "BG": {
+              "name": "BIOLOGY",
+              "id": "805",
+              "subtopics": {
+                "01": {
+                  "name": "BIOLOGY",
+                  "id": "7853"
+                }
+              }
+            },
+            "CC": {
+              "name": "Control and Co-ordination (10)",
+              "id": "969",
+              "subtopics": {
+                "01": {
+                  "name": "Control and Co-ordination (10)",
+                  "id": "8047"
+                }
+              }
+            },
+            "DL": {
+              "name": "Diversity in living organism (9)",
+              "id": "974",
+              "subtopics": {
+                "01": {
+                  "name": "Diversity in living organism (9)",
+                  "id": "8052"
+                }
+              }
+            },
+            "EX": {
+              "name": "Excretion (10)",
+              "id": "971",
+              "subtopics": {
+                "01": {
+                  "name": "Excretion (10)",
+                  "id": "8049"
+                }
+              }
+            },
+            "MIS": {
+              "name": "Miscellaneous",
+              "id": "773",
+              "subtopics": {
+                "10": {
+                  "name": "Miscellaneous",
+                  "id": "7820"
+                }
+              }
+            },
+            "NR": {
+              "name": "Natural Resources (9)",
+              "id": "973",
+              "subtopics": {
+                "01": {
+                  "name": "Natural Resources (9)",
+                  "id": "8051"
+                }
+              }
+            },
+            "NT": {
+              "name": "Nutrition (10)",
+              "id": "977",
+              "subtopics": {
+                "01": {
+                  "name": "Nutrition (10)",
+                  "id": "8055"
+                }
+              }
+            },
+            "RP": {
+              "name": "Respiration (10)",
+              "id": "976",
+              "subtopics": {
+                "01": {
+                  "name": "Respiration (10)",
+                  "id": "8054"
+                }
+              }
+            },
+            "TA": {
+              "name": "Transportation in Animal (10)",
+              "id": "975",
+              "subtopics": {
+                "01": {
+                  "name": "Transportation in Animal (10)",
+                  "id": "8053"
+                }
+              }
+            },
+            "TP": {
+              "name": "Transportation in Plants (10)",
+              "id": "972",
+              "subtopics": {
+                "01": {
+                  "name": "Transportation in Plants (10)",
+                  "id": "8050"
+                }
+              }
+            },
+            "WD": {
+              "name": "Why do we fall ill (9)",
+              "id": "970",
+              "subtopics": {
+                "01": {
+                  "name": "Why do we fall ill (9)",
+                  "id": "8048"
+                }
+              }
+            }
+          }
+        },
+        "CH": {
+          "name": "CHEMISTRY",
+          "id": "13",
+          "topics": {
+            "AB": {
+              "name": "Acid Bases, Salts (10)",
+              "id": "966",
+              "subtopics": {
+                "01": {
+                  "name": "Acid Bases, Salts (10)",
+                  "id": "8044"
+                }
+              }
+            },
+            "AM": {
+              "name": "Atom and molecules (9)",
+              "id": "964",
+              "subtopics": {
+                "01": {
+                  "name": "Atom and molecules (9)",
+                  "id": "8042"
+                }
+              }
+            },
+            "AS": {
+              "name": "Atomic Structure (9)",
+              "id": "965",
+              "subtopics": {
+                "01": {
+                  "name": "Atomic Structure (9)",
+                  "id": "8043"
+                }
+              }
+            },
+            "CH": {
+              "name": "CHEMISTRY",
+              "id": "804",
+              "subtopics": {
+                "01": {
+                  "name": "CHEMISTRY",
+                  "id": "7852"
+                }
+              }
+            },
+            "CR": {
+              "name": "Chemical Reaction (10)",
+              "id": "968",
+              "subtopics": {
+                "01": {
+                  "name": "Chemical Reaction (10)",
+                  "id": "8046"
+                }
+              }
+            },
+            "MIS": {
+              "name": "Miscellaneous",
+              "id": "772",
+              "subtopics": {
+                "10": {
+                  "name": "Miscellaneous",
+                  "id": "7819"
+                }
+              }
+            },
+            "MN": {
+              "name": "Metal and Non-metal (10)",
+              "id": "967",
+              "subtopics": {
+                "01": {
+                  "name": "Metal and Non-metal (10)",
+                  "id": "8045"
+                }
+              }
+            }
+          }
+        },
+        "EN": {
+          "name": "ENGLISH",
+          "id": "15",
+          "topics": {
+            "MIS": {
+              "name": "Miscellaneous",
+              "id": "769",
+              "subtopics": {
+                "10": {
+                  "name": "Miscellaneous",
+                  "id": "7816"
+                }
+              }
+            }
+          }
+        },
+        "MA": {
+          "name": "MENTAL ABILITY",
+          "id": "14",
+          "topics": {
+            "BR": {
+              "name": "Blood Relation",
+              "id": "300",
+              "subtopics": {
+                "01": {
+                  "name": "Blood Relation",
+                  "id": "8005"
+                }
+              }
+            },
+            "CD": {
+              "name": "Cubes and Dice",
+              "id": "994",
+              "subtopics": {
+                "01": {
+                  "name": "Cubes and Dice",
+                  "id": "8072"
+                }
+              }
+            },
+            "CF": {
+              "name": "Counting Figure",
+              "id": "996",
+              "subtopics": {
+                "01": {
+                  "name": "Counting Figure",
+                  "id": "8074"
+                }
+              }
+            },
+            "CK": {
+              "name": "Clock",
+              "id": "992",
+              "subtopics": {
+                "01": {
+                  "name": "Clock",
+                  "id": "8070"
+                }
+              }
+            },
+            "CR": {
+              "name": "Calendar",
+              "id": "322",
+              "subtopics": {
+                "01": {
+                  "name": "Calendar",
+                  "id": "8075"
+                }
+              }
+            },
+            "DS": {
+              "name": "Direction sense",
+              "id": "834",
+              "subtopics": {
+                "01": {
+                  "name": "Direction sense",
+                  "id": "7907"
+                }
+              }
+            },
+            "EF": {
+              "name": "Embedded Figure",
+              "id": "896",
+              "subtopics": {
+                "01": {
+                  "name": "Embedded Figure",
+                  "id": "7972"
+                }
+              }
+            },
+            "MA": {
+              "name": "MENTAL ABILITY",
+              "id": "806",
+              "subtopics": {
+                "01": {
+                  "name": "MENTAL ABILITY",
+                  "id": "7854"
+                }
+              }
+            },
+            "MC": {
+              "name": "Missing Character",
+              "id": "998",
+              "subtopics": {
+                "01": {
+                  "name": "Missing Character",
+                  "id": "8077"
+                }
+              }
+            },
+            "MIS": {
+              "name": "Miscellaneous",
+              "id": "774",
+              "subtopics": {
+                "10": {
+                  "name": "Miscellaneous",
+                  "id": "7821"
+                }
+              }
+            },
+            "MO": {
+              "name": "Mathematical Operation",
+              "id": "293",
+              "subtopics": {
+                "01": {
+                  "name": "Mathematical Operation",
+                  "id": "7973"
+                }
+              }
+            },
+            "NA": {
+              "name": "Non-verbal Analogy",
+              "id": "993",
+              "subtopics": {
+                "01": {
+                  "name": "Non-verbal Analogy",
+                  "id": "8071"
+                }
+              }
+            },
+            "NR": {
+              "name": "Number Ranking",
+              "id": "830",
+              "subtopics": {
+                "01": {
+                  "name": "Number Ranking",
+                  "id": "7903"
+                }
+              }
+            },
+            "NV": {
+              "name": "Non-verbal Series",
+              "id": "928",
+              "subtopics": {
+                "01": {
+                  "name": "Non-verbal Series",
+                  "id": "8006"
+                }
+              }
+            },
+            "PT": {
+              "name": "Puzzle Test",
+              "id": "999",
+              "subtopics": {
+                "01": {
+                  "name": "Puzzle Test",
+                  "id": "8078"
+                }
+              }
+            },
+            "SA": {
+              "name": "Sitting Arangement",
+              "id": "997",
+              "subtopics": {
+                "01": {
+                  "name": "Sitting Arangement",
+                  "id": "8076"
+                }
+              }
+            },
+            "SY": {
+              "name": "Syllogism",
+              "id": "995",
+              "subtopics": {
+                "01": {
+                  "name": "Syllogism",
+                  "id": "8073"
+                }
+              }
+            }
+          }
+        },
+        "MT": {
+          "name": "MATHS",
+          "id": "3",
+          "topics": {
+            "AP": {
+              "name": "Areas of Paralelograms and Triangles (9)",
+              "id": "982",
+              "subtopics": {
+                "01": {
+                  "name": "Areas of Paralelograms and Triangles (9)",
+                  "id": "8060"
+                }
+              }
+            },
+            "CS": {
+              "name": "Circles (9)",
+              "id": "985",
+              "subtopics": {
+                "01": {
+                  "name": "Circles (9)",
+                  "id": "8063"
+                }
+              }
+            },
+            "HF": {
+              "name": "Heron's Formula (9)",
+              "id": "987",
+              "subtopics": {
+                "01": {
+                  "name": "Heron's Formula (9)",
+                  "id": "8065"
+                }
+              }
+            },
+            "IE": {
+              "name": "Introduction Euclid's Geometry (9)",
+              "id": "980",
+              "subtopics": {
+                "01": {
+                  "name": "Introduction Euclid's Geometry (9)",
+                  "id": "8058"
+                }
+              }
+            },
+            "LA": {
+              "name": "Lines, Angles,Triangles- Congruency & similarity of triangles and Quadrilaterals (9)",
+              "id": "981",
+              "subtopics": {
+                "01": {
+                  "name": "Lines, Angles,Triangles- Congruency & similarity of triangles and Quadrilaterals (9)",
+                  "id": "8059"
+                }
+              }
+            },
+            "LE": {
+              "name": "Linear Equation in Two Variables (10)",
+              "id": "978",
+              "subtopics": {
+                "01": {
+                  "name": "Linear Equation in Two Variables (10)",
+                  "id": "8056"
+                }
+              }
+            },
+            "MIS": {
+              "name": "Miscellaneous",
+              "id": "771",
+              "subtopics": {
+                "10": {
+                  "name": "Miscellaneous",
+                  "id": "7818"
+                }
+              }
+            },
+            "MT": {
+              "name": "MATHS",
+              "id": "803",
+              "subtopics": {
+                "01": {
+                  "name": "MATHS",
+                  "id": "7851"
+                }
+              }
+            },
+            "NS": {
+              "name": "Number System (10)",
+              "id": "979",
+              "subtopics": {
+                "01": {
+                  "name": "Number System (10)",
+                  "id": "8057"
+                }
+              }
+            },
+            "PB": {
+              "name": "Probability (10)",
+              "id": "986",
+              "subtopics": {
+                "01": {
+                  "name": "Probability (10)",
+                  "id": "8064"
+                }
+              }
+            },
+            "PY": {
+              "name": "Polynomial (10)",
+              "id": "983",
+              "subtopics": {
+                "01": {
+                  "name": "Polynomial (10)",
+                  "id": "8061"
+                }
+              }
+            },
+            "SA": {
+              "name": "Surface area and Volumes (9)",
+              "id": "988",
+              "subtopics": {
+                "01": {
+                  "name": "Surface area and Volumes (9)",
+                  "id": "8066"
+                }
+              }
+            },
+            "SC": {
+              "name": "Circles (10)",
+              "id": "991",
+              "subtopics": {
+                "01": {
+                  "name": "Circles (10)",
+                  "id": "8069"
+                }
+              }
+            },
+            "ST": {
+              "name": "Statistics (9)",
+              "id": "990",
+              "subtopics": {
+                "01": {
+                  "name": "Statistics (9)",
+                  "id": "8068"
+                }
+              }
+            },
+            "TG": {
+              "name": "Introduction to Trigenometry (10)",
+              "id": "984",
+              "subtopics": {
+                "01": {
+                  "name": "Introduction to Trigenometry (10)",
+                  "id": "8062"
+                }
+              }
+            },
+            "YP": {
+              "name": "Polynomial (9)",
+              "id": "989",
+              "subtopics": {
+                "01": {
+                  "name": "Polynomial (9)",
+                  "id": "8067"
+                }
+              }
+            }
+          }
+        },
+        "PH": {
+          "name": "PHYSICS",
+          "id": "2",
+          "topics": {
+            "EC": {
+              "name": "Electricity (10)",
+              "id": "960",
+              "subtopics": {
+                "01": {
+                  "name": "Electricity (10)",
+                  "id": "8038"
+                }
+              }
+            },
+            "FC": {
+              "name": "Force (9)",
+              "id": "961",
+              "subtopics": {
+                "01": {
+                  "name": "Force (9)",
+                  "id": "8039"
+                }
+              }
+            },
+            "GT": {
+              "name": "Gravitation (9)",
+              "id": "936",
+              "subtopics": {
+                "01": {
+                  "name": "Gravitation (9)",
+                  "id": "8014"
+                }
+              }
+            },
+            "ME": {
+              "name": "Magnetic Effect of current (10)",
+              "id": "962",
+              "subtopics": {
+                "01": {
+                  "name": "Magnetic Effect of current (10)",
+                  "id": "8040"
+                }
+              }
+            },
+            "MIS": {
+              "name": "Miscellaneous",
+              "id": "770",
+              "subtopics": {
+                "10": {
+                  "name": "Miscellaneous",
+                  "id": "7817"
+                }
+              }
+            },
+            "MT": {
+              "name": "Motion (9)",
+              "id": "933",
+              "subtopics": {
+                "01": {
+                  "name": "Motion (9)",
+                  "id": "8011"
+                }
+              }
+            },
+            "PH": {
+              "name": "PHYSICS",
+              "id": "802",
+              "subtopics": {
+                "01": {
+                  "name": "PHYSICS",
+                  "id": "7850"
+                }
+              }
+            },
+            "SD": {
+              "name": "Sound (9)",
+              "id": "959",
+              "subtopics": {
+                "01": {
+                  "name": "Sound (9)",
+                  "id": "8037"
+                }
+              }
+            },
+            "WE": {
+              "name": "Work Power and Energy (9)",
+              "id": "963",
+              "subtopics": {
+                "01": {
+                  "name": "Work Power and Energy (9)",
+                  "id": "8041"
+                }
+              }
+            }
+          }
+        },
+        "SS": {
+          "name": "SOCIAL SCIENCE",
+          "id": "16",
+          "topics": {
+            "MIS": {
+              "name": "Miscellaneous",
+              "id": "775",
+              "subtopics": {
+                "10": {
+                  "name": "Miscellaneous",
+                  "id": "7822"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
