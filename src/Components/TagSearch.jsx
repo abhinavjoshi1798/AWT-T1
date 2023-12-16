@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 
-const TagSearch = () => {
+const TagSearch = ({ data }) => {
   const [isTrue, setIsTrue] = useState(true);
   const [searchToggle, setSearchToggle] = useState(true);
-  const [classx, setClassx] = useState([]);
-  const [subjects, setSubjects] = useState([]);
-  const [topics, setTopics] = useState([]);
+  const [selectedDivision, setSelectedDivision] = useState("");
+  const [selectedClass, setSelectedClass] = useState("");
+  const [selectedSubject, setSelectedSubject] = useState("");
+  const [selectedTopic, setSelectedTopic] = useState("");
+  const [selectedSubtopic, setSelectedSubtopic] = useState("");
+
+  console.log(data)
 
   const handleClick = () => {
     setIsTrue(!isTrue);
@@ -15,37 +19,67 @@ const TagSearch = () => {
     setSearchToggle(!searchToggle);
   };
 
-  const handleSelectStream = (e) => {
-    let tempClass = [];
-    let tempSub = [];
-    let tempTopics = [];
-    let endPoint = e.target.value;
-    fetch(` http://localhost:5000/${endPoint}`)
-      .then((res) => res.json())
-      .then((res) => {
-        res[0].class.forEach((el) => {
-          tempClass.push(el.name);
-          el.subjects.map((el)=>{
-            tempSub.push(el.name)
-          })
-        });
-        setClassx([...tempClass]);
+  const divisions = data.map((item) => item.name);
 
-        res[0].class[0].subjects.forEach((el) => {
-          tempSub.push(el.name);
-          console.log(el.topics);
-          topics.forEach((el) => {
-            tempTopics.push(el.name);
-          });
-        });
-        setSubjects([...tempSub]);
-        setTopics(tempTopics);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+  const classes =
+    selectedDivision &&
+    data
+      .find((item) => item.name === selectedDivision)
+      ?.classes.map((classItem) => classItem.name);
+
+  const subjects =
+    selectedClass &&
+    data
+      .find((item) => item.name === selectedDivision)
+      .classes.find((classItem) => classItem.name === selectedClass)
+      ?.subjects.map((subjectItem) => subjectItem.name);
+
+  const topics =
+    selectedSubject &&
+    data
+      .find((item) => item.name === selectedDivision)
+      .classes.find((classItem) => classItem.name === selectedClass)
+      .subjects.find((subjectItem) => subjectItem.name === selectedSubject)
+      ?.topics.map((topicItem) => topicItem.name);
+
+  const subtopics =
+    selectedTopic &&
+    data
+      .find((item) => item.name === selectedDivision)
+      .classes.find((classItem) => classItem.name === selectedClass)
+      .subjects.find((subjectItem) => subjectItem.name === selectedSubject)
+      .topics.find((topicItem) => topicItem.name === selectedTopic)
+      ?.subtopics.map((subtopicItem) => subtopicItem.name);
+
+  const handleDivisionChange = (e) => {
+    setSelectedDivision(e.target.value);
+    setSelectedClass("");
+    setSelectedSubject("");
+    setSelectedTopic("");
+    setSelectedSubtopic("");
   };
-  console.log(subjects, classx, topics);
+
+  const handleClassChange = (e) => {
+    setSelectedClass(e.target.value);
+    setSelectedSubject("");
+    setSelectedTopic("");
+    setSelectedSubtopic("");
+  };
+
+  const handleSubjectChange = (e) => {
+    setSelectedSubject(e.target.value);
+    setSelectedTopic("");
+    setSelectedSubtopic("");
+  };
+
+  const handleTopicChange = (e) => {
+    setSelectedTopic(e.target.value);
+    setSelectedSubtopic("");
+  };
+
+  const handleSubtopicChange = (e) => {
+    setSelectedSubtopic(e.target.value);
+  };
 
   return (
     <>
@@ -88,53 +122,15 @@ const TagSearch = () => {
                           <select
                             class="form-select"
                             aria-label="Default select example"
-                            onChange={handleSelectStream}
+                            value={selectedDivision}
+                            onChange={handleDivisionChange}
                           >
                             <option value="All">All</option>
-                            <option value="AG">
-                              ALLEN GLOBAL STUDIES DIVISION - AG
-                            </option>
-                            <option value="AS">ALLEN SHARP - AS</option>
-                            <option value="AT">ASAT - AT</option>
-                            <option value="BD">BOARD - BD</option>
-                            <option value="BS">BITSAT - BS</option>
-                            <option value="CO">COMMERCE - CO</option>
-                            <option value="GJ">
-                              GUJARAT BOARD (PNCF) - GJ
-                            </option>
-                            <option value="IB">INTELLIBRAIN - IB</option>
-                            <option value="JA">IIT - JA</option>
-                            <option value="JM">JEE MAIN - JM</option>
-                            <option value="JS">JSO - JS</option>
-                            <option value="KV">KVPY - KV</option>
-                            <option value="LW">LAW - LW</option>
-                            <option value="MA">MEDICAL-AIIMS - MA</option>
-                            <option value="MD">MEDICAL NEET (UG) - MD</option>
-                            <option value="MG">MANAGEMENT - MG</option>
-                            <option value="MH">
-                              MAHARASHTRA BOARD (PNCF) - MH
-                            </option>
-                            <option value="OS">AOST - OS</option>
-                            <option value="OTH">Other - OTH</option>
-                            <option value="PA">
-                              PRE NURTURE ADVANCED - PA
-                            </option>
-                            <option value="PE">
-                              PRE NURTURE EXCELLENT - PE
-                            </option>
-                            <option value="PF">
-                              PRE NURTURE FOUNDATION - PF
-                            </option>
-                            <option value="PI">Pre-Nurture ICSE - PI</option>
-                            <option value="RK"> - RK</option>
-                            <option value="RT">ALLEN Recruitment - RT</option>
-                            <option value="SG">
-                              STATE GOVERNMENT EXAMS - SG
-                            </option>
-                            <option value="TM">TIM - TM</option>
-                            <option value="TX">TALLENTEX - TX</option>
-                            <option value="UE">UPSC EXAMS - UE</option>
-                            <option value="XT">ALLEN XAT - XT</option>
+                            {divisions.map((division, index) => (
+                              <option key={index} value={division}>
+                                {division}
+                              </option>
+                            ))}
                           </select>
                         </div>
 
@@ -143,16 +139,19 @@ const TagSearch = () => {
                           <select
                             class="form-select"
                             aria-label="Default select example"
+                            value={selectedClass}
+                            onChange={handleClassChange}
+                            disabled={!selectedDivision}
                           >
-                            <option selected>All</option>
-                            {classx.length > 0 &&
-                              classx.map((el, i) => {
-                                return (
-                                  <option key={i} value={el}>
-                                    {el}
-                                  </option>
-                                );
-                              })}
+                            <option selected value="All">
+                              All
+                            </option>
+                            {classes &&
+                              classes.map((classItem, index) => (
+                                <option key={index} value={classItem}>
+                                  {classItem}
+                                </option>
+                              ))}
                           </select>
                         </div>
 
@@ -161,16 +160,19 @@ const TagSearch = () => {
                           <select
                             class="form-select"
                             aria-label="Default select example"
+                            value={selectedSubject}
+                            onChange={handleSubjectChange}
+                            disabled={!selectedClass}
                           >
-                            <option selected>All</option>
-                            {subjects.length > 0 &&
-                              subjects.map((el, i) => {
-                                return (
-                                  <option key={i} value={el}>
-                                    {el}
-                                  </option>
-                                );
-                              })}
+                            <option selected value="All">
+                              All
+                            </option>
+                            {subjects &&
+                              subjects.map((subjectItem, index) => (
+                                <option key={index} value={subjectItem}>
+                                  {subjectItem}
+                                </option>
+                              ))}
                           </select>
                         </div>
 
@@ -179,11 +181,19 @@ const TagSearch = () => {
                           <select
                             class="form-select"
                             aria-label="Default select example"
+                            value={selectedTopic}
+                            onChange={handleTopicChange}
+                            disabled={!selectedSubject}
                           >
-                            <option selected>All</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option selected value="All">
+                              All
+                            </option>
+                            {topics &&
+                              topics.map((topicItem, index) => (
+                                <option key={index} value={topicItem}>
+                                  {topicItem}
+                                </option>
+                              ))}
                           </select>
                         </div>
 
@@ -192,11 +202,19 @@ const TagSearch = () => {
                           <select
                             class="form-select"
                             aria-label="Default select example"
+                            value={selectedSubtopic}
+                            onChange={handleSubtopicChange}
+                            disabled={!selectedTopic}
                           >
-                            <option selected>All</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option selected value="All">
+                              All
+                            </option>
+                            {subtopics &&
+                              subtopics.map((subtopicItem, index) => (
+                                <option key={index} value={subtopicItem}>
+                                  {subtopicItem}
+                                </option>
+                              ))}
                           </select>
                         </div>
 

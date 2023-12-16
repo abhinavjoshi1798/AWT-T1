@@ -126,675 +126,747 @@
 }
 
 
-"AS": {
+
+
+     {
   "name": "ALLEN SHARP",
   "id": "21",
-  "class": {
-    "10": {
+  "class": [
+    {
+      "value": "10th",
       "name": "X",
       "id": "10",
-      "subjects": {
-        "BG": {
+      "subjects": [
+        {
+          "value": "BG",
           "name": "BIOLOGY",
           "id": "12",
-          "topics": {
-            "BG": {
+          "topics": [
+            {
+              "value": "BG",
               "name": "BIOLOGY",
               "id": "805",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "BIOLOGY",
                   "id": "7853"
                 }
-              }
+              ]
             },
-            "CC": {
+            {
+              "value": "CC",
               "name": "Control and Co-ordination (10)",
               "id": "969",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Control and Co-ordination (10)",
                   "id": "8047"
                 }
-              }
+              ]
             },
-            "DL": {
+            {
+              "value": "DL",
               "name": "Diversity in living organism (9)",
               "id": "974",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Diversity in living organism (9)",
                   "id": "8052"
                 }
-              }
+              ]
             },
-            "EX": {
+            {
+              "value": "EX",
               "name": "Excretion (10)",
               "id": "971",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Excretion (10)",
                   "id": "8049"
                 }
-              }
+              ]
             },
-            "MIS": {
+            {
+              "value": "MIS",
               "name": "Miscellaneous",
               "id": "773",
-              "subtopics": {
-                "10": {
+              "subtopics": [
+                {
                   "name": "Miscellaneous",
                   "id": "7820"
                 }
-              }
+              ]
             },
-            "NR": {
+            {
+              "value": "NR",
               "name": "Natural Resources (9)",
               "id": "973",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Natural Resources (9)",
                   "id": "8051"
                 }
-              }
+              ]
             },
-            "NT": {
+            {
+              "value": "NT",
               "name": "Nutrition (10)",
               "id": "977",
               "subtopics": {
-                "01": {
-                  "name": "Nutrition (10)",
-                  "id": "8055"
-                }
+                "name": "Nutrition (10)",
+                "id": "8055"
               }
             },
-            "RP": {
+            {
+              "value": "RP",
               "name": "Respiration (10)",
               "id": "976",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Respiration (10)",
                   "id": "8054"
                 }
-              }
+              ]
             },
-            "TA": {
+            {
+              "value": "TA",
               "name": "Transportation in Animal (10)",
               "id": "975",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Transportation in Animal (10)",
                   "id": "8053"
                 }
-              }
+              ]
             },
-            "TP": {
+            {
+              "value": "TP",
               "name": "Transportation in Plants (10)",
               "id": "972",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Transportation in Plants (10)",
                   "id": "8050"
                 }
-              }
+              ]
             },
-            "WD": {
+            {
+              "value": "WD",
               "name": "Why do we fall ill (9)",
               "id": "970",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Why do we fall ill (9)",
                   "id": "8048"
                 }
-              }
+              ]
             }
-          }
+          ]
         },
-        "CH": {
+        {
+          "value": "CH",
           "name": "CHEMISTRY",
           "id": "13",
-          "topics": {
-            "AB": {
+          "topics": [
+            {
+              "value": "AB",
               "name": "Acid Bases, Salts (10)",
               "id": "966",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Acid Bases, Salts (10)",
                   "id": "8044"
                 }
-              }
+              ]
             },
-            "AM": {
+            {
+              "value": "AM",
               "name": "Atom and molecules (9)",
               "id": "964",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Atom and molecules (9)",
                   "id": "8042"
                 }
-              }
+              ]
             },
-            "AS": {
+            {
+              "value": "AS",
               "name": "Atomic Structure (9)",
               "id": "965",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Atomic Structure (9)",
                   "id": "8043"
                 }
-              }
+              ]
             },
-            "CH": {
+            {
+              "value": "CH",
               "name": "CHEMISTRY",
               "id": "804",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "CHEMISTRY",
                   "id": "7852"
                 }
-              }
+              ]
             },
-            "CR": {
+            {
+              "value": "CR",
               "name": "Chemical Reaction (10)",
               "id": "968",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Chemical Reaction (10)",
                   "id": "8046"
                 }
-              }
+              ]
             },
-            "MIS": {
+            {
+              "value": "MIS",
               "name": "Miscellaneous",
               "id": "772",
-              "subtopics": {
-                "10": {
+              "subtopics": [
+                {
                   "name": "Miscellaneous",
                   "id": "7819"
                 }
-              }
+              ]
             },
-            "MN": {
+            {
+              "value": "MN",
               "name": "Metal and Non-metal (10)",
               "id": "967",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Metal and Non-metal (10)",
                   "id": "8045"
                 }
-              }
+              ]
             }
-          }
+          ]
         },
-        "EN": {
+        {
+          "value": "EN",
           "name": "ENGLISH",
           "id": "15",
-          "topics": {
-            "MIS": {
+          "topics": [
+            {
+              "value": "MIS",
               "name": "Miscellaneous",
               "id": "769",
-              "subtopics": {
-                "10": {
+              "subtopics": [
+                {
                   "name": "Miscellaneous",
                   "id": "7816"
                 }
-              }
+              ]
             }
-          }
+          ]
         },
-        "MA": {
+        {
+          "value": "MA",
           "name": "MENTAL ABILITY",
           "id": "14",
-          "topics": {
-            "BR": {
+          "topics": [
+            {
+              "value": "BR",
               "name": "Blood Relation",
               "id": "300",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Blood Relation",
                   "id": "8005"
                 }
-              }
+              ]
             },
-            "CD": {
+            {
+              "value": "CD",
               "name": "Cubes and Dice",
               "id": "994",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Cubes and Dice",
                   "id": "8072"
                 }
-              }
+              ]
             },
-            "CF": {
+            {
+              "value": "CF",
               "name": "Counting Figure",
               "id": "996",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Counting Figure",
                   "id": "8074"
                 }
-              }
+              ]
             },
-            "CK": {
+            {
+              "value": "CK",
               "name": "Clock",
               "id": "992",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Clock",
                   "id": "8070"
                 }
-              }
+              ]
             },
-            "CR": {
+            {
+              "value": "CR",
               "name": "Calendar",
               "id": "322",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Calendar",
                   "id": "8075"
                 }
-              }
+              ]
             },
-            "DS": {
+            {
+              "value": "DS",
               "name": "Direction sense",
               "id": "834",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Direction sense",
                   "id": "7907"
                 }
-              }
+              ]
             },
-            "EF": {
+            {
+              "value": "EF",
               "name": "Embedded Figure",
               "id": "896",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Embedded Figure",
                   "id": "7972"
                 }
-              }
+              ]
             },
-            "MA": {
+            {
+              "value": "MA",
               "name": "MENTAL ABILITY",
               "id": "806",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "MENTAL ABILITY",
                   "id": "7854"
                 }
-              }
+              ]
             },
-            "MC": {
+            {
+              "value": "MC",
               "name": "Missing Character",
               "id": "998",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Missing Character",
                   "id": "8077"
                 }
-              }
+              ]
             },
-            "MIS": {
+            {
+              "value": "MIS",
               "name": "Miscellaneous",
               "id": "774",
-              "subtopics": {
-                "10": {
+              "subtopics": [
+                {
                   "name": "Miscellaneous",
                   "id": "7821"
                 }
-              }
+              ]
             },
-            "MO": {
+            {
+              "value": "MO",
               "name": "Mathematical Operation",
               "id": "293",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Mathematical Operation",
                   "id": "7973"
                 }
-              }
+              ]
             },
-            "NA": {
+            {
+              "value": "NA",
               "name": "Non-verbal Analogy",
               "id": "993",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Non-verbal Analogy",
                   "id": "8071"
                 }
-              }
+              ]
             },
-            "NR": {
+            {
+              "value": "NR",
               "name": "Number Ranking",
               "id": "830",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Number Ranking",
                   "id": "7903"
                 }
-              }
+              ]
             },
-            "NV": {
+            {
+              "value": "NV",
               "name": "Non-verbal Series",
               "id": "928",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Non-verbal Series",
                   "id": "8006"
                 }
-              }
+              ]
             },
-            "PT": {
+            {
+              "value": "PT",
               "name": "Puzzle Test",
               "id": "999",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Puzzle Test",
                   "id": "8078"
                 }
-              }
+              ]
             },
-            "SA": {
-              "name": "Sitting Arangement",
+            {
+              "value": "SA",
+              "name": "Sitting Arrangement",
               "id": "997",
-              "subtopics": {
-                "01": {
-                  "name": "Sitting Arangement",
+              "subtopics": [
+                {
+                  "name": "Sitting Arrangement",
                   "id": "8076"
                 }
-              }
+              ]
             },
-            "SY": {
+            {
+              "value": "SY",
               "name": "Syllogism",
               "id": "995",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Syllogism",
                   "id": "8073"
                 }
-              }
+              ]
             }
-          }
+          ]
         },
-        "MT": {
+        {
+          "value": "MT",
           "name": "MATHS",
           "id": "3",
-          "topics": {
-            "AP": {
-              "name": "Areas of Paralelograms and Triangles (9)",
+          "topics": [
+            {
+              "value": "AP",
+              "name": "Areas of Parallelograms and Triangles (9)",
               "id": "982",
-              "subtopics": {
-                "01": {
-                  "name": "Areas of Paralelograms and Triangles (9)",
+              "subtopics": [
+                {
+                  "name": "Areas of Parallelograms and Triangles (9)",
                   "id": "8060"
                 }
-              }
+              ]
             },
-            "CS": {
+            {
+              "value": "CS",
               "name": "Circles (9)",
               "id": "985",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Circles (9)",
                   "id": "8063"
                 }
-              }
+              ]
             },
-            "HF": {
+            {
+              "value": "HF",
               "name": "Heron's Formula (9)",
               "id": "987",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Heron's Formula (9)",
                   "id": "8065"
                 }
-              }
+              ]
             },
-            "IE": {
+            {
+              "value": "IE",
               "name": "Introduction Euclid's Geometry (9)",
               "id": "980",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Introduction Euclid's Geometry (9)",
                   "id": "8058"
                 }
-              }
+              ]
             },
-            "LA": {
-              "name": "Lines, Angles,Triangles- Congruency & similarity of triangles and Quadrilaterals (9)",
+            {
+              "value": "LA",
+              "name": "Lines, Angles, Triangles - Congruency & similarity of triangles and Quadrilaterals (9)",
               "id": "981",
-              "subtopics": {
-                "01": {
-                  "name": "Lines, Angles,Triangles- Congruency & similarity of triangles and Quadrilaterals (9)",
+              "subtopics": [
+                {
+                  "name": "Lines, Angles, Triangles - Congruency & similarity of triangles and Quadrilaterals (9)",
                   "id": "8059"
                 }
-              }
+              ]
             },
-            "LE": {
+            {
+              "value": "LE",
               "name": "Linear Equation in Two Variables (10)",
               "id": "978",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Linear Equation in Two Variables (10)",
                   "id": "8056"
                 }
-              }
+              ]
             },
-            "MIS": {
+            {
+              "value": "MIS",
               "name": "Miscellaneous",
               "id": "771",
-              "subtopics": {
-                "10": {
+              "subtopics": [
+                {
                   "name": "Miscellaneous",
                   "id": "7818"
                 }
-              }
+              ]
             },
-            "MT": {
+            {
+              "value": "MT",
               "name": "MATHS",
               "id": "803",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "MATHS",
                   "id": "7851"
                 }
-              }
+              ]
             },
-            "NS": {
+            {
+              "value": "NS",
               "name": "Number System (10)",
               "id": "979",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Number System (10)",
                   "id": "8057"
                 }
-              }
+              ]
             },
-            "PB": {
+            {
+              "value": "PB",
               "name": "Probability (10)",
               "id": "986",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Probability (10)",
                   "id": "8064"
                 }
-              }
+              ]
             },
-            "PY": {
+            {
+              "value": "PY",
               "name": "Polynomial (10)",
               "id": "983",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Polynomial (10)",
                   "id": "8061"
                 }
-              }
+              ]
             },
-            "SA": {
+            {
+              "value": "SA",
               "name": "Surface area and Volumes (9)",
               "id": "988",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Surface area and Volumes (9)",
                   "id": "8066"
                 }
-              }
+              ]
             },
-            "SC": {
+            {
+              "value": "SC",
               "name": "Circles (10)",
               "id": "991",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Circles (10)",
                   "id": "8069"
                 }
-              }
+              ]
             },
-            "ST": {
+            {
+              "value": "ST",
               "name": "Statistics (9)",
               "id": "990",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Statistics (9)",
                   "id": "8068"
                 }
-              }
+              ]
             },
-            "TG": {
-              "name": "Introduction to Trigenometry (10)",
+            {
+              "value": "TG",
+              "name": "Introduction to Trigonometry (10)",
               "id": "984",
-              "subtopics": {
-                "01": {
-                  "name": "Introduction to Trigenometry (10)",
+              "subtopics": [
+                {
+                  "name": "Introduction to Trigonometry (10)",
                   "id": "8062"
                 }
-              }
+              ]
             },
-            "YP": {
+            {
+              "value": "YP",
               "name": "Polynomial (9)",
               "id": "989",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Polynomial (9)",
                   "id": "8067"
                 }
-              }
+              ]
             }
-          }
+          ]
         },
-        "PH": {
+        {
+          "value": "PH",
           "name": "PHYSICS",
           "id": "2",
-          "topics": {
-            "EC": {
+          "topics": [
+            {
+              "value": "EC",
               "name": "Electricity (10)",
               "id": "960",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Electricity (10)",
                   "id": "8038"
                 }
-              }
+              ]
             },
-            "FC": {
+            {
+              "value": "FC",
               "name": "Force (9)",
               "id": "961",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Force (9)",
                   "id": "8039"
                 }
-              }
+              ]
             },
-            "GT": {
+            {
+              "value": "GT",
               "name": "Gravitation (9)",
               "id": "936",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Gravitation (9)",
                   "id": "8014"
                 }
-              }
+              ]
             },
-            "ME": {
+            {
+              "value": "ME",
               "name": "Magnetic Effect of current (10)",
               "id": "962",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Magnetic Effect of current (10)",
                   "id": "8040"
                 }
-              }
+              ]
             },
-            "MIS": {
+            {
+              "value": "MIS",
               "name": "Miscellaneous",
               "id": "770",
-              "subtopics": {
-                "10": {
+              "subtopics": [
+                {
                   "name": "Miscellaneous",
                   "id": "7817"
                 }
-              }
+              ]
             },
-            "MT": {
+            {
+              "value": "MT",
               "name": "Motion (9)",
               "id": "933",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Motion (9)",
                   "id": "8011"
                 }
-              }
+              ]
             },
-            "PH": {
+            {
+              "value": "PH",
               "name": "PHYSICS",
               "id": "802",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "PHYSICS",
                   "id": "7850"
                 }
-              }
+              ]
             },
-            "SD": {
+            {
+              "value": "SD",
               "name": "Sound (9)",
               "id": "959",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Sound (9)",
                   "id": "8037"
                 }
-              }
+              ]
             },
-            "WE": {
+            {
+              "value": "WE",
               "name": "Work Power and Energy (9)",
               "id": "963",
-              "subtopics": {
-                "01": {
+              "subtopics": [
+                {
                   "name": "Work Power and Energy (9)",
                   "id": "8041"
                 }
-              }
+              ]
             }
-          }
+          ]
         },
-        "SS": {
+        {
+          "value": "SS",
           "name": "SOCIAL SCIENCE",
           "id": "16",
-          "topics": {
-            "MIS": {
+          "topics": [
+            {
+              "value": "MIS",
               "name": "Miscellaneous",
               "id": "775",
-              "subtopics": {
-                "10": {
+              "subtopics": [
+                {
                   "name": "Miscellaneous",
                   "id": "7822"
                 }
-              }
+              ]
             }
-          }
+          ]
         }
-      }
-    },
+      ]
+    }
+  ]
+}
