@@ -17,68 +17,6 @@ const TagSearch = ({ data }) => {
     setSearchToggle(!searchToggle);
   };
 
-  // const divisions = data.map((item) => item.name);
-
-  // const classes =
-  //   selectedDivision &&
-  //   data
-  //     .find((item) => item.name === selectedDivision)
-  //     ?.classes.map((classItem) => classItem.name);
-
-  // const subjects =
-  //   selectedClass &&
-  //   data
-  //     .find((item) => item.name === selectedDivision)
-  //     .classes.find((classItem) => classItem.name === selectedClass)
-  //     ?.subjects.map((subjectItem) => subjectItem.name);
-
-  // const topics =
-  //   selectedSubject &&
-  //   data
-  //     .find((item) => item.name === selectedDivision)
-  //     .classes.find((classItem) => classItem.name === selectedClass)
-  //     .subjects.find((subjectItem) => subjectItem.name === selectedSubject)
-  //     ?.topics.map((topicItem) => topicItem.name);
-
-  // const subtopics =
-  //   selectedTopic &&
-  //   data
-  //     .find((item) => item.name === selectedDivision)
-  //     .classes.find((classItem) => classItem.name === selectedClass)
-  //     .subjects.find((subjectItem) => subjectItem.name === selectedSubject)
-  //     .topics.find((topicItem) => topicItem.name === selectedTopic)
-  //     ?.subtopics.map((subtopicItem) => subtopicItem.name);
-
-  // const handleDivisionChange = (e) => {
-  //   setSelectedDivision(e.target.value);
-  //   setSelectedClass("");
-  //   setSelectedSubject("");
-  //   setSelectedTopic("");
-  //   setSelectedSubtopic("");
-  // };
-
-  // const handleClassChange = (e) => {
-  //   setSelectedClass(e.target.value);
-  //   setSelectedSubject("");
-  //   setSelectedTopic("");
-  //   setSelectedSubtopic("");
-  // };
-
-  // const handleSubjectChange = (e) => {
-  //   setSelectedSubject(e.target.value);
-  //   setSelectedTopic("");
-  //   setSelectedSubtopic("");
-  // };
-
-  // const handleTopicChange = (e) => {
-  //   setSelectedTopic(e.target.value);
-  //   setSelectedSubtopic("");
-  // };
-
-  // const handleSubtopicChange = (e) => {
-  //   setSelectedSubtopic(e.target.value);
-  // };
-
   const divisions = Object.keys(data);
 
   const classes =
@@ -186,11 +124,6 @@ const TagSearch = ({ data }) => {
                             onChange={handleDivisionChange}
                           >
                             <option value="All">All</option>
-                            {/* {divisions.map((division, index) => (
-                              <option key={index} value={division}>
-                                {division}
-                              </option>
-                            ))} */}
                             {divisions.map((division, index) => (
                               <option key={index} value={division}>
                                 {data[division].name}
@@ -211,12 +144,6 @@ const TagSearch = ({ data }) => {
                             <option selected value="All">
                               All
                             </option>
-                            {/* {classes &&
-                              classes.map((classItem, index) => (
-                                <option key={index} value={classItem}>
-                                  {classItem}
-                                </option>
-                              ))} */}
                             {classes &&
                               classes.map((classItem, index) => (
                                 <option key={index} value={classItem}>
@@ -238,13 +165,7 @@ const TagSearch = ({ data }) => {
                             <option selected value="All">
                               All
                             </option>
-                            {/* {subjects &&
-                              subjects.map((subjectItem, index) => (
-                                <option key={index} value={subjectItem}>
-                                  {subjectItem}
-                                </option>
-                              ))} */}
-                            {subjects &&
+                              {subjects &&
                               subjects.map((subjectItem, index) => (
                                 <option key={index} value={subjectItem}>
                                   {
@@ -268,12 +189,6 @@ const TagSearch = ({ data }) => {
                             <option selected value="All">
                               All
                             </option>
-                            {/* {topics &&
-                              topics.map((topicItem, index) => (
-                                <option key={index} value={topicItem}>
-                                  {topicItem}
-                                </option>
-                              ))} */}
                             {topics &&
                               topics.map((topicItem, index) => (
                                 <option key={index} value={topicItem}>
@@ -300,12 +215,6 @@ const TagSearch = ({ data }) => {
                             <option selected value="All">
                               All
                             </option>
-                            {/* {subtopics &&
-                              subtopics.map((subtopicItem, index) => (
-                                <option key={index} value={subtopicItem}>
-                                  {subtopicItem}
-                                </option>
-                              ))} */}
                             {subtopics &&
                               subtopics.map((subtopicItem, index) => (
                                 <option key={index} value={subtopicItem}>
